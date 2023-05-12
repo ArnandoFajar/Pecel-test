@@ -1,0 +1,16 @@
+{
+  "name": "pecel-test",
+  "version": "1.0.0",
+  "description": "ini adalah testing untuk website pecel lele",
+  "main": "index.js",
+  "author": "arnando",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "4.8.2"
+  },
+  "scripts": {
+    "test": "mocha --timeout 60000"
+  }
+}
