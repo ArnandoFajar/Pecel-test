@@ -42,7 +42,7 @@ describe("Test Pesan Reservasi", function () {
       await driver
         .findElement(By.xpath("/html/body/main/section[5]/div/div[2]/div/form"))
         .submit();
-      await driver.sleep(3000);
+      await driver.sleep(2500);
 
       // get hasil jawaban server
       let note = await driver
